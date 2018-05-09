@@ -16,9 +16,11 @@ import {LogMiddleware} from "./log. middleware";
     ],
 })
 export class AppModule implements NestModule{
+    nombreAplicacion= 'EPN';
     configure(consumer: MiddlewaresConsumer): void {
         consumer
             .apply(LogMiddleware)
+            .with(this.nombreAplicacion, 1991)
             .forRoutes(
                 UsuarioController,
                 AppController,
