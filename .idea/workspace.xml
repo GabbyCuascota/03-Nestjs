@@ -32,8 +32,8 @@
       <file leaf-file-name="parametros.controller.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ejemplo/src/parametros.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="330">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -173,12 +173,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525706816074</updated>
       <workItem from="1525706817233" duration="1187000" />
-      <workItem from="1525882375320" duration="2435000" />
+      <workItem from="1525882375320" duration="2650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3955000" />
+    <option name="totallyTimeSpent" value="4170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="115" y="232" width="1232" height="1091" extended-state="0" />
@@ -342,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ejemplo/src/parametros.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>

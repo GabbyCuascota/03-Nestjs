@@ -34,7 +34,7 @@ export class ParametrosController{
             protocol:request.protocol,
             headers,
         };
-        return response.send(respuesta);
+        console.log(respuesta);
+        return response.redirect('http://localhost:3001');
     }
-
 }
