@@ -32,7 +32,7 @@ export class ParametrosController{
             originalUrl:request.originalUrl,
             path:request.path,
             protocol:request.protocol,
-            headers,
+            headers:request.headers,
         };
         console.log(respuesta);
         return response.redirect('http://localhost:3001');
