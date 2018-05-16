@@ -13,12 +13,6 @@ export class UsuarioService {
         return this.usuarios;
     }
 }
-
-export interface Usuario {
-    nombre: string;
-    apellido: string;
-    edad: number
-}
 export interface Usuario {
     nombre: string;
     apellido: string;

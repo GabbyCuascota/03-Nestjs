@@ -2,9 +2,12 @@ import {Body, Controller, Get, Headers, Param, Post, Query, Req, Res} from "@nes
 import {UsuarioService} from "./usuario.service";
 
 @Controller('Parametros')
-export class ParametrosController{
+export class ParametrosController {
+
     constructor(private _usuarioService: UsuarioService) {
+
     }
+
     @Post('devolver/:id/:modelo')
     devolverParametros(
         @Req() request,
@@ -12,34 +15,36 @@ export class ParametrosController{
         @Query() queryParams,
         @Body() bodyParams,
         @Param() paramsParams
-    ){
+    ) {
         const respuesta = {
             queryParams: queryParams,
             bodyParams: bodyParams,
             paramsParams: paramsParams
         };
-    return response.send(respuesta);
+        return response.send(respuesta);
     }
+
     @Get('ReqRes')
     requestResponse(
         @Req() request,
         @Res() response,
         @Headers() headers
-    ){
-        const respuesta= {
-            baseUrl:request.baseUrl,
-            hostname:request.hostname,
-            subdomains:request.subdomains,
-            ip:request.ip,
-            method:request.method,
-            originalUrl:request.originalUrl,
-            path:request.path,
-            protocol:request.protocol,
+    ) {
+        const respuesta = {
+            baseUrl: request.baseUrl,
+            hostname: request.hostname,
+            subdomains: request.subdomains,
+            ip: request.ip,
+            method: request.method,
+            originalUrl: request.originalUrl,
+            path: request.path,
+            protocol: request.protocol,
             headers,
         };
         console.log(respuesta);
-        return response.redirect('/Usuario/mostrar');
+        return response.redirect('/Usuario/mostrar');///Usuario/mostrar
     }
+
     @Post('crearUsuario')
     crearUsuario(
         @Req() request,
@@ -57,17 +62,41 @@ export class ParametrosController{
             .status(201)
             .send(usuarioCreado);
     }
+
     @Get('establecerCookie')
     establecerCookie(
-
         @Req() request,
         @Res() response
-    ){
+    ) {
         const parametros = {
-            nombreCookie: request.params.query.nombre,
-            valorCookie: request.params.query.nombre,
-        }
+            nombreCookie: request.query.nombre,
+            valorCookie: request.query.valor,
+        };
+        // Seteando la cookie 1) NOMBRE 2) VALOR
         response.cookie(parametros.nombreCookie, parametros.valorCookie);
         return response.send(parametros)
     }
+
+    @Get('cookie/:nombre')
+    leerCookie(
+        @Req() request,
+        @Res() response
+    ) {
+        const nombreCookie = request.params.nombre;
+        const existeCookie = request.cookie[nombreCookie];
+        if (existeCookie) {
+            return response.send({
+                valor: existeCookie
+            })
+        } else {
+            return response
+                .status(404)
+                .send({
+                    mensaje: 'No encontramos cookie'
+                })
+        }
+    }
 }
+       /* // Seteando la cookie 1) NOMBRE 2) VALOR
+        response.cookie(parametros.nombreCookie, parametros.valorCookie);
+        return response.send(parametros)/*
