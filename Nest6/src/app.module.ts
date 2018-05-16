@@ -4,8 +4,8 @@ import { AppService } from './app.service';
 import {UsuarioService} from "./usuario.service";
 import {ParametrosController} from "../../Ejemplo/src/parametros.controller";
 import {UsuarioController} from "./usuario.controller";
-import {LogMiddleware} from "../../Ejemplo/src/log. middleware";
 import {MiddlewaresConsumer} from "@nestjs/common/interfaces/middlewares";
+import {LogMiddleware} from "./log. middleware";
 
 @Module({
     imports: [],
