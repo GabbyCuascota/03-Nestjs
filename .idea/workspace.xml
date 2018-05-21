@@ -17,6 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+<<<<<<< HEAD
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nest6/src/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +54,33 @@
               <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="e#1#42#0" expanded="true" />
+=======
+      <file leaf-file-name="parametros.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nest6/src/parametros.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#92#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="log. middleware.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Nest6/src/log. middleware.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="parametros.controller.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nest6/src/parametros.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,10 +89,18 @@
               <folding>
                 <element signature="e#0#92#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="usuario.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nest6/src/usuario.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="39" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="usuario.controller.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nest6/src/usuario.controller.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,6 +120,15 @@
               <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
+=======
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Nest6/src/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
               </folding>
             </state>
           </provider>
@@ -120,12 +160,21 @@
         <option value="$PROJECT_DIR$/Ejemplo/src/parametros.controller.ts" />
         <option value="$PROJECT_DIR$/Ejemplo/src/app.module.ts" />
         <option value="$PROJECT_DIR$/Ejemplo/src/log. middleware.ts" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Nest6/src/app.module.ts" />
         <option value="$PROJECT_DIR$/Nest6/src/main.hmr.ts" />
         <option value="$PROJECT_DIR$/Nest6/src/main.ts" />
         <option value="$PROJECT_DIR$/Nest6/src/parametros.controller.ts" />
         <option value="$PROJECT_DIR$/Nest6/src/usuario.controller.ts" />
         <option value="$PROJECT_DIR$/Nest6/src/log.middleware.ts" />
+=======
+        <option value="$PROJECT_DIR$/Nest6/src/main.ts" />
+        <option value="$PROJECT_DIR$/Nest6/src/parametros.controller.ts" />
+        <option value="$PROJECT_DIR$/Nest6/src/usuario.controller.ts" />
+        <option value="$PROJECT_DIR$/Nest6/src/log. middleware.ts" />
+        <option value="$PROJECT_DIR$/Nest6/src/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/Nest6/src/app.module.ts" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
       </list>
     </option>
   </component>
@@ -136,15 +185,31 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+<<<<<<< HEAD
     <handled-path value="$PROJECT_DIR$/Ejemplo/node_modules" />
+=======
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
     <handled-path value="$PROJECT_DIR$/Nest6/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="232" />
-    <option name="width" value="1232" />
-    <option name="height" value="1091" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/03-Nestjs/Ejemplo/package.json" />
+      <path value="$PROJECT_DIR$/03-Nestjs/Nest6/package.json" />
+      <path value="$PROJECT_DIR$/03-Nestjs/node_modules/cookie-parser/package.json" />
+      <path value="$PROJECT_DIR$/03-Nestjs/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/03-Nestjs/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/Ejemplo/package.json" />
+      <path value="$PROJECT_DIR$/Nest6/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-parser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/cookie/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -162,11 +227,14 @@
             <path>
               <item name="03-Nestjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="03-Nestjs" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Ejemplo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="03-Nestjs" type="b2602c69:ProjectViewProjectNode" />
               <item name="03-Nestjs" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
               <item name="Nest6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -184,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Angular" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="$PROJECT_DIR$/Ejemplo/node_modules/prettier" />
@@ -192,7 +260,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Ejemplo/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabby\Documents\GitHub\03-Nestjs\Nest6\src" />
+    </key>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -223,12 +296,18 @@
       <updated>1525706816074</updated>
       <workItem from="1525706817233" duration="1187000" />
       <workItem from="1525882375320" duration="4742000" />
+<<<<<<< HEAD
       <workItem from="1526489760493" duration="445000" />
       <workItem from="1526913748300" duration="647000" />
+=======
+      <workItem from="1526490141683" duration="3372000" />
+      <workItem from="1526494682414" duration="34000" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7354000" />
   </component>
   <component name="ToolWindowManager">
@@ -243,11 +322,30 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.39101964" />
+=======
+    <option name="totallyTimeSpent" value="9668000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911818" visible="true" weight="0.186875" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1875" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
       <window_info id="Favorites" order="2" sideWeight="0.50088185" side_tool="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -262,27 +360,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Ejemplo/src/log. middleware.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
+=======
+    <entry file="file://$PROJECT_DIR$/Nest6/src/parametros.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2366">
+          <caret line="91" column="27" lean-forward="true" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/usuario.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/log. middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo/src/log. middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ejemplo/src/parametros.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1258">
+=======
+        <state relative-caret-position="884">
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
           <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ejemplo/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="703">
           <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="598">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
         </state>
       </provider>
     </entry>
@@ -327,9 +477,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
+=======
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
         </state>
       </provider>
     </entry>
@@ -337,9 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#1#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,14 +527,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="e#1#68#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ejemplo/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/Ejemplo/src/log. middleware.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="444">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
@@ -397,11 +545,16 @@
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="269">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ejemplo/src/parametros.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="534">
           <caret line="38" column="5" lean-forward="true" selection-end-line="39" selection-end-column="1" />
         </state>
@@ -419,10 +572,69 @@
         <state>
           <folding>
             <element signature="e#0#49#0" expanded="true" />
+=======
+        <state relative-caret-position="373">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="12" selection-start-line="3" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/parametros.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ejemplo/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="17" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/usuario.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nest6/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Nest6/src/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1219">
@@ -480,6 +692,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/Nest6/src/log. middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
           <folding>
             <element signature="e#0#78#0" expanded="true" />
           </folding>

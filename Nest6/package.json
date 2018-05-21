@@ -25,6 +25,10 @@
     "@nestjs/testing": "^5.0.0",
     "@nestjs/typeorm": "^3.0.0",
     "@nestjs/websockets": "^5.0.0",
+<<<<<<< HEAD
+=======
+    "cookie-parser": "^1.4.3",
+>>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
     "mysql": "^2.15.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.0.0",
