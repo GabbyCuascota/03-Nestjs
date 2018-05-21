@@ -6,6 +6,7 @@ import {UsuarioService} from "./usuario.service";
 import {ParametrosController} from "./parametros.controller";
 import {LogMiddleware} from './log.middleware';
 import {TypeOrmModule} from "@nestjs/typeorm";
+import {UsuarioEntity} from "./usuario/usuario.entity";
 
 @Module({
   imports: [
@@ -20,12 +21,14 @@ import {TypeOrmModule} from "@nestjs/typeorm";
           synchronize: true,
           ssl:true
       }),
-
+      TypeOrmModule.forFeature([UsuarioEntity])
   ],
-  controllers: [AppController,
+  controllers: [
+      AppController,
       UsuarioController,
       ParametrosController,],
-  providers: [AppService,
+  providers: [
+      AppService,
       UsuarioService],
 })
 export class AppModule implements NestModule {

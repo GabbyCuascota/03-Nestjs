@@ -1,9 +1,8 @@
 
-<<<<<<< HEAD
+
 import {NestFactory} from '@nestjs/core';
 import {AppModule} from './app.module';
-=======
->>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
+
 
 const cookieParser = require('cookie-parser');
 
