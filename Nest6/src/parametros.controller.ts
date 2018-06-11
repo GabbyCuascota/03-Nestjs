@@ -75,32 +75,6 @@ export class ParametrosController {
         // Seteando la cookie 1) NOMBRE 2) VALOR
         response.cookie(parametros.nombreCookie, parametros.valorCookie);
         return response.send(parametros)
-<<<<<<< HEAD
-=======
-    }
-
-    @Get('cookie/:nombre')
-    leerCookie(
-        @Req() request,
-        @Res() response
-    ) {
-        const nombreCookie = request.params.nombre;
-        const existeCookie = request.cookies[nombreCookie];
-        if (existeCookie) {
-            return response.send({
-                valor: existeCookie
-            })
-        } else {
-            return response
-                .status(404)
-                .send({
-                    mensaje: 'No encontramos cookie'
-                })
-        }
-
-        // request.cookies.adrian;
-        // request.cookies["adrian"];
->>>>>>> a503670c99869a4176ce5836cc82f5e00efc5573
     }
 
     @Get('cookie/:nombre')
