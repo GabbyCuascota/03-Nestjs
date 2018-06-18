@@ -1,4 +1,4 @@
-import {BadRequestException, Body, Controller, Post} from "@nestjs/common";
+import {BadRequestException, Body, Controller, HttpCode, Post} from "@nestjs/common";
 import {JwtService} from "../servicios/jwt.service";
 
 @Controller('Auth')
@@ -39,26 +39,32 @@ export class AuthController {
     }
 
     @Post('verificarJWT')
+    @HttpCode(200)
     verificarJWT(
         @Body('jwt') jwt: string,
-    ) {
+    ): any {
         const tieneParametros = jwt;
         if (tieneParametros) {
-            this._jwtService.verificarToken(jwt, (error, data) => {
-                if (error){
-                    throw new BadRequestException(
-                        {
-                            mensaje: 'Jwt invalido',
-                            error: error
+            this._jwtService
+                .verificarToken(
+                    jwt,
+                    (error, data) => {
+                        if (error) {
+                            throw new BadRequestException(
+                                {
+                                    mensaje: 'Jwt invalido',
+                                    error: error
+                                }
+                            )
+                        } else {
+                            return {
+                                mensaje: 'Ok',
+                                data: data
+                            }
                         }
-                    )
-                }else{
-                    return{
-                        mensaje: 'ok',
-                        data: data
                     }
-                }
-            })
+                )
+
         } else {
             throw new BadRequestException(
                 {
