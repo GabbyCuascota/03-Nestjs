@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ export class AppComponent {
     nombre: 'Gabriela',
     apellido: 'Cuascota',
   };
-  arregloNumeros = [1,2,3,4,5];
+  arregloNumeros = [1, 2, 3, 4, 5];
   mostrarTitulo = true;
   imagenUrl = "https://minutodedios.fm/wp-content/uploads/2017/05/perro-gato.jpg";
   imagenWidth = '300';
@@ -22,11 +22,12 @@ export class AppComponent {
   <img src="${this.imagenUrl}" alt="">
 `;
 
-  aumentarWidth(evento){
-    console.log('evento',evento);
+  aumentarWidth(evento) {
+    console.log('evento', evento);
     this.imagenWidth += 10;
   }
-  restarWidth(){
+
+  restarWidth() {
     this.imagenWidth -= 10;
   }
 }
