@@ -6,16 +6,49 @@ import {Component} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  //Interpolacion
+  // Interpolacion
+  mostrarComponente = false;
+  contadorDesdePapa = 0;
+
+  arregloUsuarios = [
+    {
+      id: 1,
+      imagen: '/assets/perfil.PNG',
+      texto: 'tatis1909'
+    },
+    {
+      id: 2,
+      imagen: '/assets/perfil1.PNG',
+      texto: 'pedro'
+    },
+    {
+      id: 3,
+      imagen: '/assets/perfil2.PNG',
+      texto: 'Jeff'
+    },
+    {
+      id: 4,
+      imagen: '/assets/perfil3.PNG',
+      texto: 'Edd'
+    },
+    {
+      id: 5,
+      imagen: '/assets/perfil4.PNG',
+      texto: 'Nancy'
+    }
+  ];
+
   titulo = 'Web';
   usuario = {
-    nombre: 'Gabriela',
-    apellido: 'Cuascota',
+    nombre: 'Adrian',
+    apellido: 'Eguez'
   };
-  arregloNumeros = [1, 2, 3, 4, 5];
+  arregloNumeros = [5, 4, 3, 2, 1];
   mostrarTitulo = true;
-  imagenUrl = "https://minutodedios.fm/wp-content/uploads/2017/05/perro-gato.jpg";
-  imagenWidth = '300';
+
+  imagenUrl = "https://coryrylan.com/assets/images/cory-rylan-gde.png";
+  imagenWidth = 200;
+
   html = `
   <h1>HOLA</h1>
   <p>Hola mundo</p>
@@ -30,4 +63,10 @@ export class AppComponent {
   restarWidth() {
     this.imagenWidth -= 10;
   }
+
+  actualizarContador(contadorHijo) {
+    console.log('Se ejecuto', contadorHijo);
+    this.contadorDesdePapa = contadorHijo;
+  }
+
 }
